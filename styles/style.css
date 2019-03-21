@@ -1,0 +1,147 @@
+#side_menu {
+	margin-top: 0px;
+	padding-left: 15px;
+	background-color: whitesmoke;
+	border-radius: 6px;
+	width: auto;
+	display:inline-block;
+	position: fixed;
+}
+
+#cart {
+	margin-top: 10px;
+	margin-right: 20px;
+	float: right;
+	z-index: 3;
+}
+
+#nav_home {
+	position: relative;
+	left: -20px;
+}
+
+.nav-tabs {
+	margin-top: 65px;
+}
+
+.sticky-top {
+	top: 70px;
+}
+
+#main {
+	width: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#main_content {
+	margin-left: 160px;
+	margin-right: 90px;
+}
+
+#home, #reviews, #partners {
+	text-align: center;
+	padding: 30px;
+}
+
+#home .btn {
+	font-size: 75%;
+}
+
+@media (max-width: 600px){
+	#main_content {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 30px;
+	}
+	#main_content .row {
+		padding-top: 45px;
+	}
+	#nutrition_main .row {
+		padding-top: 0px;
+	}
+	#reviews, #partners {
+		padding-top: 70px;
+	}
+
+	#nav_home {
+		visibility: collapse;
+		width: 0px;
+		height: 0px;
+	}
+	#side_menu .nav-link{
+		padding-left: 5px;
+	}
+	.nav.flex-column {
+		flex-direction: row !important;
+		font-size: 0.75rem;
+	}
+	.sticky-top {
+		top: 60px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 2000px;
+	}
+}
+
+.card-deck {
+	flex: 1 0 0%;
+}
+
+.row .card, #reviews .card {
+	margin: 15px;
+	max-width: 280px;
+	min-width: 200px;
+}
+
+#partners .card {
+	margin: 3px;
+	max-width: 170px;
+	min-width: 140px;
+}
+
+#partners .lead {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+#partners .col-sm {
+	padding: 5px;
+}
+
+#partners p.card-text {
+	font-size: .7rem;
+}
+
+.card-deck .card {
+	min-width: 200px;
+	margin: 15px;
+}
+
+.price {
+	font-weight: 400;
+}
+
+#reviews .card-body {
+	position: relative;
+	top: 0px;
+}
+
+#partners .card-body {
+	padding: 0px;
+}
+
+#partners .card-img-top {
+	margin: 0px;
+}
+
+#reviews .card-title {
+	font-family: cursive;
+}
+
+#reviews .lead {
+	font-size: 2rem;
+}
